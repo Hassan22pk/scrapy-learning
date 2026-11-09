@@ -1,0 +1,13 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.idea/
+.vscode/
+.scrapy/
+*.json
+*.jsonl
+*.html
+logfile.txt
