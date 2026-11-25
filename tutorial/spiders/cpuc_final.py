@@ -4,13 +4,11 @@ from datetime import datetime
 import json
 import re
 
-
 class CpucDocketsSpider(scrapy.Spider):
     
     name = "cpuc_spider"
     
     allowed_domains = ["docs.cpuc.ca.gov", "apps.cpuc.ca.gov"]
-    
     page_size = 100
 
     search_url = "https://docs.cpuc.ca.gov/advancedsearchform.aspx"
